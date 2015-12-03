@@ -1,0 +1,9 @@
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/ConnectionSpec.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/RemoteDriverTest.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/jdbc/JdbcMetaTest.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/jdbc/StatementInfoTest.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/server/HandlerFactoryTest.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/remote/AlternatingRemoteMetaTest.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/test/AvaticaSuite.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/remote/RemoteMetaTest.java
+/home/bylee/calcite/avatica-server/src/test/java/org/apache/calcite/avatica/RemoteDriverMockTest.java

@@ -1,0 +1,57 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Calcite Piglet
+
+
+From: 'an unknown organization'
+  - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:bundle:14.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Compiler (http://docs.codehaus.org/display/JANINO/Home/commons-compiler) org.codehaus.janino:commons-compiler:jar:2.7.6
+    License: New BSD License  (http://dist.codehaus.org/janino/new_bsd_license.txt)
+  - Janino (http://docs.codehaus.org/display/JANINO/Home/janino) org.codehaus.janino:janino:jar:2.7.6
+    License: New BSD License  (http://dist.codehaus.org/janino/new_bsd_license.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://wiki.fasterxml.com/JacksonHome) com.fasterxml.jackson.core:jackson-annotations:jar:2.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (http://wiki.fasterxml.com/JacksonHome) com.fasterxml.jackson.core:jackson-core:jar:2.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://wiki.fasterxml.com/JacksonHome) com.fasterxml.jackson.core:jackson-databind:jar:2.1.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Google' (http://www.google.com/)
+  - Protocol Buffer Java API (https://developers.google.com/protocol-buffers/) com.google.protobuf:protobuf-java:bundle:3.0.0-beta-1
+    License: New BSD license  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'Julian Hyde' (http://www.hydromatic.net)
+  - eigenbase-properties (http://github.com/julianhyde/eigenbase-properties) net.hydromatic:eigenbase-properties:bundle:1.1.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Pentaho' (http://www.pentaho.com)
+  - Pentaho Aggregate Designer Algorithm (http://github.com/pentaho/mondrian/pentaho-aggdesigner-algorithm) org.pentaho:pentaho-aggdesigner-algorithm:jar:5.1.5-jhyde
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons DBCP (http://commons.apache.org/dbcp/) commons-dbcp:commons-dbcp:jar:1.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.1.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool (http://commons.apache.org/pool/) commons-pool:commons-pool:jar:1.5.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Calcite Avatica (http://calcite.apache.org/calcite-avatica) org.apache.calcite:calcite-avatica:jar:1.6.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Calcite Core (http://calcite.apache.org/calcite-core) org.apache.calcite:calcite-core:jar:1.6.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Calcite Linq4j (http://calcite.apache.org/calcite-linq4j) org.apache.calcite:calcite-linq4j:jar:1.6.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

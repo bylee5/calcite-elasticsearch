@@ -13,6 +13,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ * dddddd
  */
 package org.apache.calcite.adapter.mongodb;
 
@@ -71,7 +72,7 @@ public class MongoTable extends AbstractQueryableTable
             typeFactory.createSqlType(SqlTypeName.VARCHAR),
             typeFactory.createTypeWithNullability(
                 typeFactory.createSqlType(SqlTypeName.ANY), true));
-    return typeFactory.builder().add("_MAP", mapType).build();
+    return typeFactory.builder().add("_MAP", mapType).build();//Adds a field with given name and type.
   }
 
   public <T> Queryable<T> asQueryable(QueryProvider queryProvider,

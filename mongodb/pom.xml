@@ -131,4 +131,7 @@ limitations under the License.
     </plugins>
   </build>
 
+  <issueManagement>
+  	<system>Jira</system>
+  </issueManagement>
 </project>

@@ -1,0 +1,10 @@
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/server/AvaticaProtobufHandler.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/server/package-info.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/JdbcMeta.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/server/HandlerFactory.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/StatementInfo.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/server/AvaticaHandler.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/JdbcResultSet.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/server/Main.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/server/HttpServer.java
+/home/bylee/calcite/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/package-info.java

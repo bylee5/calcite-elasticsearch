@@ -1,0 +1,7 @@
+org/apache/calcite/adapter/elasticsearch/ElasticsearchTable.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchTable$ElasticsearchQueryable.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchSchema.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchRel.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchTableScan.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchSchemaFactory.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchRel$Implementor.class

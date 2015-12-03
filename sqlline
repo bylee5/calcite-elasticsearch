@@ -37,7 +37,7 @@ if [ ! -f target/fullclasspath.txt ]; then
 fi
 
 CP=
-for module in core avatica mongodb spark splunk example/csv example/function; do
+for module in core avatica mongodb spark splunk example/csv example/function elasticsearch ; do
   CP=${CP}${module}/target/classes:
   CP=${CP}${module}/target/test-classes:
 done
@@ -50,6 +50,8 @@ if [ "$cygwin" ]; then
   # Work around https://github.com/jline/jline2/issues/62
   VM_OPTS=-Djline.terminal=jline.UnixTerminal
 fi
+
+echo $CP
 
 export JAVA_OPTS=-Djavax.xml.parsers.DocumentBuilderFactory=com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
 
