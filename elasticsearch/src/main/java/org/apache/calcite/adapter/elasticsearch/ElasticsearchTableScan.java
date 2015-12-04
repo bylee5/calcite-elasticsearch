@@ -1,15 +1,29 @@
 package org.apache.calcite.adapter.elasticsearch;
 
+import java.util.AbstractList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
+import com.google.common.collect.ImmutableMap;
+import org.apache.calcite.adapter.enumerable.EnumerableRel;
+import org.apache.calcite.adapter.enumerable.EnumerableRelImplementor;
+import org.apache.calcite.adapter.enumerable.PhysType;
+import org.apache.calcite.adapter.enumerable.PhysTypeImpl;
+import org.apache.calcite.linq4j.tree.BlockBuilder;
+import org.apache.calcite.linq4j.tree.Expression;
+import org.apache.calcite.linq4j.tree.Expressions;
 import org.apache.calcite.plan.RelOptCluster;
 import org.apache.calcite.plan.RelOptCost;
 import org.apache.calcite.plan.RelOptPlanner;
 import org.apache.calcite.plan.RelOptTable;
 import org.apache.calcite.plan.RelTraitSet;
+import org.apache.calcite.prepare.CalcitePrepareImpl;
 import org.apache.calcite.rel.RelNode;
 import org.apache.calcite.rel.core.TableScan;
 import org.apache.calcite.rel.type.RelDataType;
+import org.apache.calcite.runtime.Hook;
+import org.apache.calcite.util.Util;
 
 public class ElasticsearchTableScan extends TableScan implements ElasticsearchRel {
 	  final ElasticsearchTable elasticsearchTable;
@@ -42,7 +56,7 @@ public class ElasticsearchTableScan extends TableScan implements ElasticsearchRe
 		  }
 
 		  @Override public void register(RelOptPlanner planner) {
-
+			//Add elasticsearch rule
 		  }
 
 		  public void implement(Implementor implementor) {

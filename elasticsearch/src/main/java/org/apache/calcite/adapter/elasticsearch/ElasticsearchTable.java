@@ -61,7 +61,7 @@ implements TranslatableTable {
 	
 	  public Enumerable<Object> find(DataContext dc, String filterJson,
 		      String projectJson, List<Map.Entry<String, Class>> fields) {
-		  //구현 
+		  //구현
 		    return null;
 		  }
 
