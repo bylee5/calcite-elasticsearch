@@ -4,8 +4,10 @@ import java.util.Map;
 
 import org.apache.calcite.schema.Table;
 import org.apache.calcite.schema.impl.AbstractSchema;
-import org.apache.metamodel.DataContext;
+import org.apache.commons.lang.exception.ExceptionUtils;
 import org.apache.metamodel.DataContextFactory;
+import org.apache.metamodel.UpdateableDataContext;
+import org.apache.metamodel.schema.Schema;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
@@ -13,7 +15,7 @@ import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import com.google.common.collect.ImmutableMap;
 
 public class ElasticsearchSchema extends AbstractSchema {
-	DataContext dc;
+	UpdateableDataContext esdc;
 	
 	public ElasticsearchSchema(String host, String index) {
 		super();
@@ -21,7 +23,7 @@ public class ElasticsearchSchema extends AbstractSchema {
 			final Client client = new TransportClient()
 	                .addTransportAddress(new InetSocketTransportAddress(host, 9300));
 			final String indexName = index;
-			this.dc = DataContextFactory.createElasticSearchDataContext(client, indexName);
+			this.esdc = DataContextFactory.createElasticSearchDataContext(client, indexName);
 			
 		} catch (Exception e) {
 			e.getStackTrace();
@@ -35,8 +37,9 @@ public class ElasticsearchSchema extends AbstractSchema {
 	protected Map<String, Table> getTableMap() {
 		// TODO Auto-generated method stub
 		final ImmutableMap.Builder<String, Table> builder = ImmutableMap.builder();
-		for (String schemaName : dc.getSchemaNames()) {
-			builder.put(schemaName, new ElasticsearchTable(schemaName));
+		Schema schema = esdc.getDefaultSchema();
+		for (org.apache.metamodel.schema.Table table: schema.getTables()) {
+			builder.put(table.getName(), new ElasticsearchTable(table, esdc));
 		}
 		return builder.build();
 	}

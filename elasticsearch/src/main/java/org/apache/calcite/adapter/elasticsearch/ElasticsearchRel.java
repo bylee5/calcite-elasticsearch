@@ -21,7 +21,7 @@ public interface ElasticsearchRel extends RelNode {
 	    ElasticsearchTable elasticsearchTable;
 
 	    public void add(String findOp, String aggOp) {
-	      list.add(Pair.of(findOp, aggOp));
+			list.add(Pair.of(findOp, aggOp));
 	    }
 
 	    public void visitChild(int ordinal, RelNode input) {

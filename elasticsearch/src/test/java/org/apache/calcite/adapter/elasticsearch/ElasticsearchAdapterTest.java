@@ -18,7 +18,8 @@ package org.apache.calcite.adapter.elasticsearch;
 
 import org.junit.Test;
 
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.Arrays;
 
 /**
  * Tests for using Calcite with Spark as an internal engine, as implemented by
@@ -26,6 +27,20 @@ import java.sql.SQLException;
  */
 public class ElasticsearchAdapterTest {
 
+    @Test
+    public void testElasticSearch() {
+        try {
+            Class.forName("org.apache.calcite.jdbc.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:calcite:model=/home/bylee/calcite/elasticsearch/src/test/resources/elasticsearch-model.json");
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("select * from \"elasticsearch_raw\".\"testCreateTable\"");
+            while (rs.next()) {
+                System.out.println("Row: " + rs.getInt(1));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
 
 // End SparkAdapterTest.java

@@ -1,8 +1,15 @@
 org/apache/calcite/adapter/elasticsearch/ElasticsearchTable.class
 org/apache/calcite/adapter/elasticsearch/ElasticsearchTable$ElasticsearchQueryable.class
-org/apache/calcite/adapter/elasticsearch/ElasticsearchSchema.class
 org/apache/calcite/adapter/elasticsearch/ElasticsearchRel.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchTable$1.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchTable$2.class
 org/apache/calcite/adapter/elasticsearch/ElasticsearchTableScan.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchEnumerator1$2.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchEnumerator1$3.class
+org/apache/calcite/adapter/elasticsearch/ElastaicsearchEnumerator.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchEnumerator1$1.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchEnumerator1.class
+org/apache/calcite/adapter/elasticsearch/ElasticsearchSchema.class
 org/apache/calcite/adapter/elasticsearch/ElasticsearchSchemaFactory.class
 org/apache/calcite/adapter/elasticsearch/ElasticsearchRel$Implementor.class
 org/apache/calcite/adapter/elasticsearch/ElasticsearchToEnumerableConverter.class

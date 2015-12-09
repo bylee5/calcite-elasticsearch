@@ -110,7 +110,7 @@ public class MongoTable extends AbstractQueryableTable
     final Function1<DBObject, Object> getter = MongoEnumerator.getter(fields);
     return new AbstractEnumerable<Object>() {
       public Enumerator<Object> enumerator() {
-        final DBCursor cursor = collection.find(filter, project);
+        final DBCursor cursor = collection.find(filter, project);//find() outside
         return new MongoEnumerator(cursor, getter);
       }
     };
