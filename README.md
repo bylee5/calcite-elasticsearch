@@ -1,6 +1,6 @@
 ##calcite compile
 
-$ mvn package -DskipTests -Dcheckstyle.skip=ture
+$ mvn package -DskipTests -Dcheckstyle.skip=true
 
 ##elasticsearch connention  using sqlline
 
