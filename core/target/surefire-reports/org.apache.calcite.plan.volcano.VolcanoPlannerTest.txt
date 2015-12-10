@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.calcite.plan.volcano.VolcanoPlannerTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.037 sec - in org.apache.calcite.plan.volcano.VolcanoPlannerTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.calcite.test.RelBuilderTest
+-------------------------------------------------------------------------------
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.393 sec - in org.apache.calcite.test.RelBuilderTest

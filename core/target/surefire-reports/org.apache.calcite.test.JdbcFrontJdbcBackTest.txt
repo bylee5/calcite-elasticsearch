@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.calcite.test.JdbcFrontJdbcBackTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 18.636 sec - in org.apache.calcite.test.JdbcFrontJdbcBackTest

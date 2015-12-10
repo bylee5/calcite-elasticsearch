@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/JdbcMeta.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/package-info.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/JdbcResultSet.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/jdbc/StatementInfo.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/server/HttpServer.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/server/package-info.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/server/AvaticaHandler.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/server/AvaticaProtobufHandler.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/server/Main.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/main/java/org/apache/calcite/avatica/server/HandlerFactory.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/jdbc/JdbcMetaTest.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/jdbc/StatementInfoTest.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/ConnectionSpec.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/test/AvaticaSuite.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/remote/RemoteMetaTest.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/remote/AlternatingRemoteMetaTest.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/RemoteDriverTest.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/server/HandlerFactoryTest.java">
+</file>
+<file name="/home/bylee/calcite-elasticsearch/avatica-server/src/test/java/org/apache/calcite/avatica/RemoteDriverMockTest.java">
+</file>
+</checkstyle>

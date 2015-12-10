@@ -1,0 +1,6 @@
+#surefire_3
+#Thu Dec 10 16:21:50 KST 2015
+user.dir=/home/bylee/calcite-elasticsearch/core
+idea.version=15.0.1
+localRepository=/home/bylee/.m2/repository
+basedir=/home/bylee/calcite-elasticsearch/core

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.calcite.test.JdbcFrontJdbcBackLinqMiddleTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 1.18 sec - in org.apache.calcite.test.JdbcFrontJdbcBackLinqMiddleTest

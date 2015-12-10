@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.calcite.tools.PlannerTest
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 7.798 sec - in org.apache.calcite.tools.PlannerTest

@@ -2,5 +2,5 @@ org/apache/calcite/StatementTest$Employee.class
 org/apache/calcite/StatementTest$HrConnection.class
 org/apache/calcite/StatementTest$HrSchema.class
 org/apache/calcite/StatementTest$Department.class
-org/apache/calcite/StatementTest.class
 org/apache/calcite/StatementTest$HrPreparedStatement.class
+org/apache/calcite/StatementTest.class

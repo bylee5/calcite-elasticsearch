@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.calcite.test.RelMetadataTest
+-------------------------------------------------------------------------------
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.419 sec - in org.apache.calcite.test.RelMetadataTest
