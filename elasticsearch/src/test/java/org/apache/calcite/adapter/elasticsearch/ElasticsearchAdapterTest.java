@@ -31,12 +31,14 @@ public class ElasticsearchAdapterTest {
     public void testElasticSearch() {
         try {
             Class.forName("org.apache.calcite.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:calcite:model=/home/bylee/calcite/elasticsearch/src/test/resources/elasticsearch-model.json");
+            Connection conn = DriverManager.getConnection("jdbc:calcite:model=/home/bylee/calcite-elasticsearch/elasticsearch/src/test/resources/elasticsearch-model.json");
             Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery("select * from \"elasticsearch_raw\".\"testCreateTable\"");
+
+            ResultSet rs = stmt.executeQuery("select * from \"metadata\".\"COLUMNS\"");
             while (rs.next()) {
-                System.out.println("Row: " + rs.getInt(1));
+                System.out.println("Row: " + rs.getString(1));
             }
+
         } catch (Exception e) {
             e.printStackTrace();
         }

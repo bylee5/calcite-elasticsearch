@@ -1,5 +1,5 @@
 org/apache/calcite/test/PigletTest.class
-org/apache/calcite/test/CalciteHandler.class
-org/apache/calcite/test/Fluent$1.class
 org/apache/calcite/test/Fluent.class
 org/apache/calcite/test/Fluent$2.class
+org/apache/calcite/test/Fluent$1.class
+org/apache/calcite/test/CalciteHandler.class

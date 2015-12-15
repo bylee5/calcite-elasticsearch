@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.calcite.test.SqlValidatorTest
--------------------------------------------------------------------------------
-Tests run: 230, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 2.19 sec - in org.apache.calcite.test.SqlValidatorTest

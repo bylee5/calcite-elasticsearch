@@ -1,10 +1,10 @@
-/home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/SimpleCharStream.java
 /home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/Token.java
-/home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/PigletParserConstants.java
+/home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/TokenMgrError.java
 /home/bylee/calcite-elasticsearch/piglet/src/main/java/org/apache/calcite/piglet/Ast.java
 /home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/ParseException.java
-/home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/TokenMgrError.java
-/home/bylee/calcite-elasticsearch/piglet/src/main/java/org/apache/calcite/piglet/Handler.java
 /home/bylee/calcite-elasticsearch/piglet/src/main/java/org/apache/calcite/piglet/package-info.java
+/home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/PigletParserConstants.java
 /home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/PigletParser.java
 /home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/PigletParserTokenManager.java
+/home/bylee/calcite-elasticsearch/piglet/target/generated-sources/javacc/org/apache/calcite/piglet/parser/SimpleCharStream.java
+/home/bylee/calcite-elasticsearch/piglet/src/main/java/org/apache/calcite/piglet/Handler.java

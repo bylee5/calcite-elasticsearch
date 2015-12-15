@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.calcite.linq4j.test.Linq4jTest
--------------------------------------------------------------------------------
-Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 sec - in org.apache.calcite.linq4j.test.Linq4jTest

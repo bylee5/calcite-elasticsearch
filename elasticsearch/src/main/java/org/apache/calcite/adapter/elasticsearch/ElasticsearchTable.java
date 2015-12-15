@@ -29,6 +29,7 @@ public class ElasticsearchTable extends AbstractQueryableTable
     protected final Table table;
     private final RelProtoDataType protoRowType;
     private final DataContext esdc;
+    int[] fields;
 
     /**
      * Creates a ElasticsearchTable.
@@ -44,9 +45,10 @@ public class ElasticsearchTable extends AbstractQueryableTable
 
         for (Column column : table.getColumns()) {
             String columnName = column.getName();
-            ColumnType columnType = column.getType();
+            //ColumnType columnType = column.getType();
+            ColumnType columnType = ColumnType.VARCHAR;
             try {
-                int jdbcType = columnType.getJdbcType();
+               int jdbcType = columnType.getJdbcType();
                 SqlTypeName typeName = SqlTypeName.getNameForJdbcType(jdbcType);
                 RelDataType type = typeFactory.createSqlType(typeName);
                 fieldInfo.add(columnName, type);
@@ -76,10 +78,12 @@ public class ElasticsearchTable extends AbstractQueryableTable
      * <p/>
      * <p>Called from generated code.
      */
-    public Enumerable<Object> project(final int[] fields) {
+    public Enumerable<Object> project(int[] fields) {
+        fields = this.fields;
+        final int[] finalFields = fields;
         return new AbstractEnumerable<Object>() {
             public Enumerator<Object> enumerator() {
-                return new ElastaicsearchEnumerator(esdc, table, fields);
+                return new ElastaicsearchEnumerator(esdc, table, finalFields);
             }
         };
     }
@@ -89,7 +93,7 @@ public class ElasticsearchTable extends AbstractQueryableTable
             RelOptTable relOptTable) {
         // Request all fields.
         final int fieldCount = relOptTable.getRowType().getFieldCount();
-        final int[] fields = ElastaicsearchEnumerator.identityList(fieldCount);
+        fields = ElastaicsearchEnumerator.identityList(fieldCount);
         return new ElasticsearchTableScan(context.getCluster(), relOptTable, this, fields);
     }
 
@@ -103,7 +107,7 @@ public class ElasticsearchTable extends AbstractQueryableTable
         filterJson = null;
         projectJson = null;
         final Schema schema = esdc.getDefaultSchema();
-        final Table elaTable = schema.getTableByName("testCreateTable");
+        final Table elaTable = schema.getTableByName("testcreatetable");
         final Function1<Table, Object> getter = ElasticsearchEnumerator1.getter(fields);
         return new AbstractEnumerable<Object>() {
             public Enumerator<Object> enumerator() {
@@ -121,7 +125,7 @@ public class ElasticsearchTable extends AbstractQueryableTable
         public Enumerator<T> enumerator() {
             //noinspection unchecked
             final Enumerable<T> enumerable =
-                    (Enumerable<T>) getTable().find(getElasticsearch(), null, null, null);
+                    (Enumerable<T>) getTable().project(null);
             return enumerable.enumerator();
         }
 

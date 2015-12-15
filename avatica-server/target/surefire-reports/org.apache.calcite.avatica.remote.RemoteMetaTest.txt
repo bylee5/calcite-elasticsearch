@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.calcite.avatica.remote.RemoteMetaTest
--------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.215 sec - in org.apache.calcite.avatica.remote.RemoteMetaTest

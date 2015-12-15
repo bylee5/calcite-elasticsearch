@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.calcite.avatica.RemoteDriverMockTest
--------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.454 sec - in org.apache.calcite.avatica.RemoteDriverMockTest

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.calcite.sql.parser.SqlUnParserTest
--------------------------------------------------------------------------------
-Tests run: 227, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.459 sec - in org.apache.calcite.sql.parser.SqlUnParserTest

@@ -16,15 +16,15 @@
  */
 {
   version: '1.0',
-  defaultSchema: 'elasticsearch',
+  defaultSchema: 'testcreateindex',
   schemas: [
     {
       type: 'custom',
-      name: 'elasticsearch_raw',
+      name: 'testcreateindex',
       factory: 'org.apache.calcite.adapter.elasticsearch.ElasticsearchSchemaFactory',
       operand: {
         host: 'localhost',
-        index: 'books'
+        index: 'testcreateindex'
       }
     }
   ]
