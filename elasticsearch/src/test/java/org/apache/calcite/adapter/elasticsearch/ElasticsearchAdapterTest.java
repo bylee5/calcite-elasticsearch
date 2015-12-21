@@ -34,9 +34,9 @@ public class ElasticsearchAdapterTest {
             Connection conn = DriverManager.getConnection("jdbc:calcite:model=/home/bylee/calcite-elasticsearch/elasticsearch/src/test/resources/elasticsearch-model.json");
             Statement stmt = conn.createStatement();
 
-            ResultSet rs = stmt.executeQuery("select * from \"metadata\".\"COLUMNS\"");
+            ResultSet rs = stmt.executeQuery("select * from \"testcreatetable\"");
             while (rs.next()) {
-                System.out.println("Row: " + rs.getString(1));
+                System.out.println("Row: " + rs.getString(2));
             }
 
         } catch (Exception e) {

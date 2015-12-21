@@ -38,17 +38,6 @@ public class ElasticsearchTableScan extends TableScan implements EnumerableRel {
         this.fields = fields;
     }
 
-    /*
-    protected ElasticsearchTableScan(RelOptCluster cluster, RelTraitSet traitSet,
-                                     RelOptTable table, ElasticsearchTable elasticsearchTable, RelDataType projectRowType) {
-        super(cluster, traitSet, table);
-        this.elasticsearchTable = elasticsearchTable;
-        this.projectRowType = projectRowType;
-
-        assert elasticsearchTable != null;
-        assert getConvention() == ElasticsearchRel.CONVENTION;
-    }
-    */
 
     @Override
     public RelNode copy(RelTraitSet traitSet, List<RelNode> inputs) {
@@ -75,14 +64,6 @@ public class ElasticsearchTableScan extends TableScan implements EnumerableRel {
     public void register(RelOptPlanner planner) {
         //Add elasticsearch rule
     }
-
-    /*
-    public void implement(Implementor implementor) {
-        implementor.elasticsearchTable = elasticsearchTable;
-        implementor.table = table;
-    }
-    */
-
 
     public Result implement(EnumerableRelImplementor implementor, Prefer pref) {
         final PhysType physType =
